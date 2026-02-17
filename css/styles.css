@@ -17,7 +17,7 @@ p {
     margin: 0;
 }
 
-.header>.container {
+.header > .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -79,7 +79,7 @@ ol {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
-    margin-left: 156px;
+    
 }
 .logo-span {
     
@@ -91,7 +91,7 @@ ol {
     color: #4d5ae5;
 }
 .navigation-header {
-    margin-right: 332px;
+    
 }
 .header-list {
     display: flex;
@@ -118,7 +118,7 @@ ol {
 .header-address-list {
     display: flex;
     gap: 40px;
-    margin-right: 156px;
+    
 
 }
 .header-address-item {
@@ -242,7 +242,7 @@ ol {
     background-color: #f4f4fd;
     padding: 120px 0;
         }
-}
+
 
 .logo-team {
 
@@ -270,6 +270,12 @@ ol {
 .team-list-item {
 
     background-color: #fff;
+    border: 1px solid #e7e9fc;
+}
+
+.team-card-content {
+    padding: 32px 0;
+    text-align: center;
 }
 
 .our-team {
@@ -295,9 +301,13 @@ ol {
 .footer-title {
 
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 
 .footer-logo {
+
+    display: inline-block;
+    margin-bottom: 16px;
    
     font-weight: 700;
     font-size: 18px;
@@ -308,16 +318,23 @@ ol {
         
 }
 
+.footer-container {
+    max-width: 264px;
+    }
+
+
 .list-logo {
 
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
 
-.portfolio-section {}
+.portfolio-section {
+
+    padding: 120px 0;
+}
 
 .logo-portfolio {
 
@@ -327,11 +344,30 @@ ol {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin: 0 0 72px;
 }
 
-.portfolio-list {}
+.portfolio-list {
+
+  
+    background: #ffffff;
+    border: 1px solid #e7e9fc;
+    width: 360px;
+    }
+       
+
+.portfolio-s {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+    margin: 0;
+    padding: 0;
+   justify-content: center;
+        }
+
 
 .portfolio {
+    margin: 0 0 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -341,14 +377,28 @@ ol {
 }
 
 .portfolio-item {
-    font-weight: 400;
+   
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     text-align: left;
+    margin: 0;
 }
 
 .section {
-  padding: 120px;
+  padding: 120px 0;
 }
+
+.portfolio-card-content {
+    padding: 32px 16px;
+    border-top: none;
+}
+
+.container {
+
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+        }
+
