@@ -208,7 +208,7 @@ margin-left: auto;
 }
 
 .our-features-item {
-    width: 265px;
+    width: 264px;
 }
 
 .title-parts-features {
@@ -267,10 +267,14 @@ margin-left: auto;
 
 .team-list-item {
 
+    width: 264px;
     background-color: #fff;
     border: 1px solid #e7e9fc;
     border-radius: 0 0 4px 4px;
     overflow: hidden;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 2px 1px rgba(46, 47, 66, 0.08);
     }
 
 
@@ -281,7 +285,7 @@ margin-left: auto;
 }
 
 .our-team {
-    
+
     margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
